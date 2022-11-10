@@ -1,0 +1,75 @@
+.informacion{
+
+    background-color:#EAF2FD;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-self:flex-start;
+
+    
+    
+}
+
+.logo{
+    display: flex;
+    align-self: flex-start;
+}
+
+.logo h2{
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.descripcion__lista .descripcion__linea{
+display: flex;
+flex-direction: column;
+padding: 5px;
+
+
+}
+.descripcion__linea{
+    text-decoration: none;
+    margin:10px;   
+    
+}
+
+/* formulario */
+
+
+.formulario__contenido .formulario__interno{
+    display: flex;
+    flex-direction:column;
+   
+}
+
+#formulario__nosotros{
+   
+    color:black;
+    font-weight: bold;
+
+}
+
+
+
+.formulario__interno{
+    width: 100%;
+    margin: 15px;
+}
+
+#input{
+    padding: 0px 0px 20px;
+    
+}
+
+#button{
+    display: flex;
+    width: 144px;
+    height: 51px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+}

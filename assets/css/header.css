@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 10%;
+    background: #FFFFFF;
+    align-items: center;
+}
+
+.header__logoContenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+
+} 
+
+
+.header__buscador{
+    position: relative;
+    left: 60px;
+
+}
+
+
+.header__input{
+    border-radius: 20px;
+    border-color: #ada5a5;
+    width: 393px;
+    height: 40px;
+    background-image: url('/assets/img/Barra\ de\ pesquisa.png');
+}
+
+
+.header__btn{
+    padding:5px 32px;
+    border: 1.5px solid blue;
+    color: blue;
+}
+
+.header__texto h2{
+   align-items: center;
+   font-size: 1.5rem;
+   font-weight: bold;
+}

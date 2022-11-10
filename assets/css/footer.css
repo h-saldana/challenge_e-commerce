@@ -1,0 +1,8 @@
+.footer{
+    padding: 32px;  
+    text-align: center;  
+    }
+    
+    .footer .footer__texto{
+        margin: 5px;
+    }
