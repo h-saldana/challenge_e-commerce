@@ -1,0 +1,31 @@
+.login{
+    background-color: #E5E5E5;
+    padding: 150px;
+}
+
+.login__sesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login__items{
+    margin:15px;
+    Width:423px;
+    Height:63.13px;
+}
+
+button{
+  background-color: #2A7AE4;
+    Width:423px;
+    Height:63.13px;
+    border: none;
+}
+.login__inicioSesion{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+
+}

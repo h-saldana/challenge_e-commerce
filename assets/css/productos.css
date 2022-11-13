@@ -1,0 +1,19 @@
+.productos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 5% 0 5%;   
+}
+
+.productos__texto{
+    font-size: 32px;
+    
+}
+
+.productos__button{
+    padding:10px 32px;
+    background-color: #2A7AE4 ;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
