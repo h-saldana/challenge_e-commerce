@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/seccion_agregar.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/productos.css">
+    <link rel="stylesheet" href="/assets/css/informacion.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    
+    <title>Productos</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="header__logoContenido">
+            <div class="header__logo">
+                <img class="header__img" src="/assets/img/logo.png" alt="Logo de la página">
+    
+            </div>
+            <div class="header__nombreLogo">
+                <img class="header_texto" src="/assets/img/AluraGeek.png" alt="nombre de la página">
+    
+            </div>
+    
+            <div class="header__texto">
+                <h2>Geek</h2>
+            </div>
+    
+            <div class="header__buscador">
+    
+                <input class="header__input" type="search" placeholder="¿Que deseas buscar?"> 
+               
+    
+                
+            </div>
+        </div>
+        
+       
+    
+    
+    
+    
+    </header>
+
+    <section class="agregar">
+        <div class="texto-productos">
+            <h1 class="productos__texto">Todos los productos</h1>
+        </div>
+    
+        <div class="btn-agregar">
+            <button type="button" class = "productos__button"><a href="/screens/agrega-producto.html" class = "productos__button">Agregar producto</a></button>
+        </div>
+    </section>
+    
+</section>
+    
+    <main>
+        <!-- primera linea -->
+        <h1 class="starWars">Star Wars</h1>
+
+        <section class="primera__linea" datos-productos>
+            
+        </section>
+    
+
+    
+    
+        <section class="informacion">
+            <div class="logo">
+                <div>
+                    <img class="header__img" src="/assets/img/logo.png" alt="Logo de la página">
+    
+                </div>
+                <div>
+                    <img class="header_texto" src="/assets/img/AluraGeek.png" alt="nombre de la página">
+    
+                </div>
+    
+                <div>
+                    <h2>Geek</h2>
+                </div>
+    
+            </div>
+           
+            <div class="descripcion">
+    
+                <ul class="descripcion__lista">
+                    <li> <a class="descripcion__linea" href="">Quienes somos</a></li>
+                    <li> <a class="descripcion__linea" href="">Politica de privacidad</a></li>
+                    <li> <a class="descripcion__linea" href="">Programa de fidelidad</a></li>
+                    <li> <a class="descripcion__linea" href="">Nuestras tiendas</a></li>
+                    <li> <a class="descripcion__linea" href="">Quiero ser franquiciado</q></a></li>
+                    <li> <a class="descripcion__linea" href="">Anuncie aquí</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="formulario">
+                
+    
+                <form class="formulario__contenido" action="">
+                    
+                    <p id="formulario__nosotros" class="formulario__interno">Hable con Nosotros</p> 
+                    <input id = "input"class="formulario__interno" type="text" placeholder="Nombre" data-nombre>
+                    <textarea id="textarea"class="formulario__interno" name="" id="" cols="30" rows="5" placeholder="Escribe tu mensaje" data-mensaje></textarea>
+                    <button id = "button"class="formulario__interno" type="submit"  data-btn>Enviar mensaje</button>
+                </form>
+            </div>
+    
+        </section> 
+    
+    
+    </main>
+    <footer class="footer">
+    
+        <p class="footer__texto"> Desarrollado por H-Saldana</p>
+        <p class="footer__texto">2022</p>
+    </footer>
+    
+    <script  type="module" src="../controllers/lista-productos.js"></script>
+
+
+
+
+</body>
+
+
+</html> 

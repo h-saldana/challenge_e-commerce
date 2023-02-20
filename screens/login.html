@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/informacion.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <title>login</title>
+</head>
+<body>
+
+</head>
+<header class="header">
+
+    <div class="header__logoContenido">
+        <div class="header__logo">
+            <img class="header__img" src="/assets/img/logo.png" alt="Logo de la página">
+
+        </div>
+        <div class="header__nombreLogo">
+            <img class="header_texto" src="/assets/img/AluraGeek.png" alt="nombre de la página">
+
+        </div>
+
+        <div class="header__texto">
+            <h2>Geek</h2>
+        </div>
+
+        <div class="header__buscador">
+
+            <input class="header__input" type="search" placeholder="¿Que deseas buscar?">
+        </div>
+    </div>
+    
+    
+
+</header>
+
+    <section class="login">
+
+        <div class ="login__sesion">
+            <form action="">
+                <p class="login__inicioSesion">Iniciar sesión</p>
+            <input class="login__items" type="email" placeholder="Escriba su correo electrónico" data-email>
+            <input class="login__items" type="password" placeholder="Escriba su contraseña" data-password maxlength="12" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})">
+            <button class="login__items" type="submit" data-ingresar >Entrar</button>
+            </form>
+            
+        </div>
+    </section>
+
+
+
+<section class="informacion">
+    <div class="logo">
+        <div>
+            <img class="header__img" src="/assets/img/logo.png" alt="Logo de la página">
+
+        </div>
+        <div>
+            <img class="header_texto" src="/assets/img/AluraGeek.png" alt="nombre de la página">
+
+        </div>
+
+        <div>
+            <h2>Geek</h2>
+        </div>
+
+    </div>
+
+    <div class="descripcion">
+
+        <ul class="descripcion__lista">
+            <li> <a class="descripcion__linea" href="">Quienes somos</a></li>
+            <li> <a class="descripcion__linea" href="">Politica de privacidad</a></li>
+            <li> <a class="descripcion__linea" href="">Programa de fidelidad</a></li>
+            <li> <a class="descripcion__linea" href="">Nuestras tiendas</a></li>
+            <li> <a class="descripcion__linea" href="">Quiero ser franquiciado</q></a></li>
+            <li> <a class="descripcion__linea" href="">Anuncie aquí</a></li>
+        </ul>
+
+    </div>
+
+    <div class="formulario">
+        
+
+        <form class="formulario__contenido" action="">
+            <p id="formulario__nosotros" class="formulario__interno">Hable con Nosotros</p> 
+            <input id = "input"class="formulario__interno" type="text" placeholder="Nombre">
+            <textarea id="textarea"class="formulario__interno" name="" id="" cols="30" rows="5" placeholder="Escribe tu mensaje"></textarea>
+            <button id = "button"class="formulario__interno" type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <p class="footer__texto"> Desarrollado por H-Saldana</p>
+    <p class="footer__texto">2022</p>
+</footer>
+    
+</body>
+
+<script src="/assets/js/login.js"></script>
+</html>

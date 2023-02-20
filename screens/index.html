@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/banner.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/informacion.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">  
+    
+    <title>page_ecommerce</title>
+    
+</head>
+<body>
+    
+<header class="header">
+
+    <div class="header__logoContenido">
+        <div class="header__logo">
+            <img class="header__img" src="/assets/img/logo.png" alt="Logo de la página">
+
+        </div>
+        <div class="header__nombreLogo">
+            <img class="header_texto" src="/assets/img/AluraGeek.png" alt="nombre de la página">
+
+        </div>
+
+        <div class="header__texto">
+            <h2>Geek</h2>
+        </div>
+
+        <div class="header__buscador">
+
+            <input class="header__input" type="search" placeholder="¿Que deseas buscar?"> 
+           
+
+            
+        </div>
+    </div>
+    
+    <div class="header__button">
+        <button class = "header__btn"> <a href="/screens/login.html">Login</a></button>
+    </div>
+
+
+
+
+</header>
+
+<section class="banner">
+    
+  
+        <img class="banner__img" src="/assets/img/Hero.png" alt="" srcset="">
+        
+        <div class="bannerTextos">
+        
+            <p class="bannerTextos__primerTexto">Febrero Promocional</p>
+            <p class="bannerTextos__segundoTexto">Productos seleccionados con un 33% de descuento</p>
+            <button  id="button"type="button" class="banner__verConsolas"  onclick= "verConsolas()" data-consolas>Ver Consolas</button>
+        </div>    
+    
+
+   
+</section>
+
+<main>
+    <!-- primera linea -->
+    <h1 class="starWars">COLECCIONES</h1>
+
+    <section class="primera__linea" datos-productos>
+        
+        
+    </section>
+  
+    
+
+    <section class="informacion">
+        <div class="logo">
+            <div>
+                <img class="header__img" src="/assets/img/logo.png" alt="Logo de la página">
+
+            </div>
+            <div>
+                <img class="header_texto" src="/assets/img/AluraGeek.png" alt="nombre de la página">
+
+            </div>
+
+            <div>
+                <h2>Geek</h2>
+            </div>
+
+        </div>
+       
+        <div class="descripcion">
+
+            <ul class="descripcion__lista">
+                <li> <a class="descripcion__linea" href="">Quienes somos</a></li>
+                <li> <a class="descripcion__linea" href="">Politica de privacidad</a></li>
+                <li> <a class="descripcion__linea" href="">Programa de fidelidad</a></li>
+                <li> <a class="descripcion__linea" href="">Nuestras tiendas</a></li>
+                <li> <a class="descripcion__linea" href="">Quiero ser franquiciado</q></a></li>
+                <li> <a class="descripcion__linea" href="">Anuncie aquí</a></li>
+            </ul>
+
+        </div>
+
+        <div class="formulario">
+            
+
+            <form class="formulario__contenido" action="">
+                
+                <p id="formulario__nosotros" class="formulario__interno">Hable con Nosotros</p> 
+                <input id ="limpiar" class="formulario__interno" type="text" value="hola"placeholder="Nombre" data-nombre>
+                <textarea id="textarea" class="formulario__interno" type="text" cols="30" rows="5" placeholder="Escribe tu mensaje" data-mensaje></textarea>
+                <button id = "button" class="formulario__interno" type="submit"  data-btn>Enviar mensaje</button>
+            </form>
+        </div>
+
+    </section> 
+
+
+</main>
+<footer class="footer">
+
+    <p class="footer__texto"> Desarrollado por H-Saldana</p>
+    <p class="footer__texto">2022</p>
+</footer>
+
+
+<script type="module" src="../controllers/productos-controller.js"></script>
+<script type="module" src="../assets/js/script.js"></script>
+
+
+</body>
+
+
+
+
+</html>
