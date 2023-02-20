@@ -1,17 +1,38 @@
+.primera__linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3% 5%;
+    flex-wrap: wrap;
+    
+
+}
 .primeraLinea{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 3% 5%;
+   
+    
 }
 
+
+
+.primeraLinea__card{
+ padding: 32px;
+}
+.datosLista{
+
+  text-align: center;
+  font-size: medium;
+}
 .starWars{
   
    position: relative;
    font-size:25px;
-   left:5%;
    top:15px;
    font-weight: bold;
+   text-align: center;
+
 }
 
 a{
@@ -19,3 +40,45 @@ a{
     color: #2A7AE4;
     font-weight: bold;
 }
+
+/* lista de productos */
+.produto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  } 
+  
+  .preco {
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  
+  .container {
+    position: relative;
+  }
+  
+  .container .editImage {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+  .container .deleteImage {
+    position: absolute;
+    top: 20px;
+    right: 75px;
+  }
+  
+  .editImage,
+  .deleteImage {
+    width: 24px;
+    height: 24px;
+    
+  }
+  
+  .buttonDelete,
+  .buttonEdit {
+    background-color: transparent;
+    border-color: transparent;
+  }

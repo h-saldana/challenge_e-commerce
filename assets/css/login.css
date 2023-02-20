@@ -8,9 +8,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 500px;
+    height: auto;
+    margin-left: 30%;
 
 }
 
+#imagenEditar{
+    position: relative;
+    left: 32.5%;
+
+}
 .login__items{
     margin:15px;
     Width:423px;
@@ -27,5 +35,6 @@ button{
     font-weight: bold;
     color: black;
     font-size: 18px;
+    text-align: center;
 
 }

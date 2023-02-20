@@ -5,6 +5,10 @@
     background: #FFFFFF;
     align-items: center;
 }
+.header__img{
+    Width:40.02px;
+    Height:29.17px;
+}
 
 .header__logoContenido{
     display: flex;
@@ -26,7 +30,12 @@
     border-color: #ada5a5;
     width: 393px;
     height: 40px;
-    background-image: url('/assets/img/Barra\ de\ pesquisa.png');
+    background-image: url('/assets/img/Vector.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 355px;
+
+
 }
 
 

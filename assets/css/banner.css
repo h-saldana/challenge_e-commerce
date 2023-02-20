@@ -1,3 +1,51 @@
-.banner__img{
-    width: 100%;
+.banner{
+    display: flex;
+    flex-direction: column;
+       
 }
+.banner__img{
+    width: 100vw;
+  
+
+  
+}
+
+
+.bannerTextos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 220px;
+    margin-left: 6%;
+    margin-right: auto;
+    
+    
+    
+}
+
+.bannerTextos__primerTexto{
+    
+    margin: 15px;
+    color: aliceblue;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.bannerTextos__segundoTexto{
+    margin: 15px;
+    color:aliceblue ;
+    font-size: 22px;
+}
+
+.banner__verConsolas{
+    margin:20px;
+    padding: .75rem;
+    width: 20%;
+    color:aliceblue;
+    background-color: #2A7AE4;
+    border: none;
+}
+
+
+
+
