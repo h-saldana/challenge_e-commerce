@@ -1,0 +1,160 @@
+{
+  "producto": [
+    {
+      "image": "../assets/img/Star_Wars/tazatrupper.png",
+      "name": "Taza Trupper",
+      "price": "2500",
+      "categoria": "Star Wars",
+      "desc": "Figura de colección Darth Vader.",
+      "id": 1
+    },
+    {
+      "image": "../assets/img/Star_Wars/yoda.png",
+      "name": "Yoda",
+      "price": "4500",
+      "categoria": "Star Wars",
+      "desc": "Figura de colección yoda",
+      "id": 2
+    },
+    {
+      "image": "../assets/img/Star_Wars/babyyoda.png",
+      "name": "Baby Yoda",
+      "price": "5800",
+      "categoria": "Star Wars",
+      "desc": "Figura de colección de Baby Yoda",
+      "id": 3
+    },
+    {
+      "image": "../assets/img/Star_Wars/mandalorian.png",
+      "name": "Mandalorian",
+      "price": "5000",
+      "categoria": "Star Wars",
+      "desc": "Figura de colección mandalorian.",
+      "id": 4
+    },
+    {
+      "image": "../assets/img/Star_Wars/stormtropper.png",
+      "name": "Storm tropper",
+      "price": "6000",
+      "categoria": "Star Wars",
+      "desc": "Figura de colección Storm tropper",
+      "id": 5
+    },
+    {
+      "image": "../assets/img/Star_Wars/miniDarth.png",
+      "name": "Mini Darth",
+      "price": "4000",
+      "categoria": "Star Wars",
+      "desc": "Figura de colección Darth Vader.",
+      "id": 6
+    },
+    {
+      "image": "../assets/img/consola/consola-1.png",
+      "name": "Consola 1",
+      "price": "3500",
+      "categoria": "consola",
+      "desc": "Consola 1",
+      "id": 7
+    },
+    {
+      "image": "../assets/img/consola/consola-2.png",
+      "name": "Consola 2",
+      "price": "4500",
+      "categoria": "consola",
+      "desc": "Consola 2",
+      "id": 8
+    },
+    {
+      "image": "../assets/img/consola/consola-3.png",
+      "name": "Consola 3",
+      "price": "3500",
+      "categoria": "consola",
+      "desc": "Consola 3",
+      "id": 9
+    },
+    {
+      "image": "../assets/img/consola/consola-4.png",
+      "name": "Consola 4",
+      "price": "7000",
+      "categoria": "consola",
+      "desc": "Consola 4",
+      "id": 10
+    },
+    {
+      "image": "../assets/img/consola/consola-5.png",
+      "name": "Consola 5",
+      "price": "8000",
+      "categoria": "consola",
+      "desc": "Consola 5",
+      "id": 11
+    },
+    {
+      "image": "../assets/img/consola/consola-6.png",
+      "name": "Consola 6",
+      "price": "4500",
+      "categoria": "consola",
+      "desc": "Consola 6",
+      "id": 12
+    },
+    {
+      "image": "../assets/img/diversos/vr.png",
+      "name": "VR",
+      "price": "8500",
+      "categoria": "diversos",
+      "desc": "VR",
+      "id": 13
+    },
+    {
+      "image": "../assets/img/diversos/camisasnes.png",
+      "name": "camisas nes",
+      "price": "4500",
+      "categoria": "diversos",
+      "desc": "Camisas nes",
+      "id": 14
+    },
+    {
+      "image": "../assets/img/diversos/atari.png",
+      "name": "Atari",
+      "price": "5000",
+      "categoria": "diversos",
+      "desc": "Atari",
+      "id": 15
+    },
+    {
+      "image": "../assets/img/diversos/pikachu.png",
+      "name": "Pikachu",
+      "price": "6000",
+      "categoria": "diversos",
+      "desc": "Colección Pikachu",
+      "id": 16
+    },
+    {
+      "image": "../assets/img/diversos/relogio.png",
+      "name": "Relogio",
+      "price": "6000",
+      "categoria": "diversos",
+      "desc": "Relogio",
+      "id": 17
+    },
+    {
+      "image": "../assets/img/diversos/sonic.png",
+      "name": "sonic",
+      "price": "799.99",
+      "categoria": "diversos",
+      "desc": "muñeco de sonic.",
+      "id": 18
+    },
+    {
+      "name": "Yoda",
+      "image": "../assets/img/Star_Wars/yoda.png",
+      "price": "5000",
+      "id": 19
+    },
+    {
+      "name": "Mini Darth",
+      "image": "../assets/img/Star_Wars/miniDarth.png",
+      "price": "4500",
+      "id": 20
+    }
+  ]
+}
