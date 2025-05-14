@@ -1,19 +1,23 @@
 {
-  "name": "repositorio_2",
+  "name": "challenge_e-commerce",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "pagina de e-commerce que expone colecciones en miniatura de Star Wars para la venta. Contiene login con vista administrador.",
+  "main": "format-price.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "server": "json-server --watch db.json --port 3000"
+
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/H-SALDANA/challenge_4.git"
+    "url": "git+https://github.com/h-saldana/challenge_e-commerce.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/H-SALDANA/challenge_4/issues"
+    "url": "https://github.com/h-saldana/challenge_e-commerce/issues"
   },
-  "homepage": "https://github.com/H-SALDANA/challenge_4#readme",
-  "description": ""
+  "homepage": "https://github.com/h-saldana/challenge_e-commerce#readme"
 }

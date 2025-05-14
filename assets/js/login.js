@@ -30,7 +30,7 @@ password.addEventListener('blur', (evento) => {
 function validaPassword(input) {
 
     let datospassword = password.value;
-    let keys = "@Html1234";
+    let keys = "html1234";
     var comp = datospassword.localeCompare(keys);
 
     console.log(comp);
